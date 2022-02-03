@@ -1,0 +1,63 @@
+p#p1{
+    background: bisque;
+    color: coral;
+}
+
+p#p2{
+    background: brown;
+    color: whitesmoke;
+}
+
+p#p3{
+    background: whitesmoke;
+    color: darkorange;
+}
+
+.width-50pc{
+    width: 50%;
+}
+
+.width-15pc{
+    width: 15pc;
+}
+
+.float-left{
+    float: left;
+}
+
+.height-150px{
+    height: 150px;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+.width-500px{
+    width: 500px;
+}
+.smaller-width{
+    width: 350px;
+    overflow: auto;
+}
+
+/*Target different style with different size of the screen*/
+@media (min-width: 0px) and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
