@@ -1,0 +1,27 @@
+.wd-background-color{
+    background-color: black;
+}
+
+.wd-search {
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    width: 50%;
+    height: 30px;
+}
+
+.wd-round {
+    float: left;
+    background-color: darkgray;
+    width: 80%;
+    border-radius: 30px;
+    border-color: black;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+}
+
+.wd-gear{
+    color: darkgray;
+    float: right;
+    padding-right: 12px;
+}
+
