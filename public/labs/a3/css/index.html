@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>A3 CSS Index Page</title>
 
-<!--    <style>-->
-<!--        p {-->
-<!--            background-color: blue;-->
-<!--            color: white;-->
-<!--        }-->
-<!--    </style>-->
+
+    <!--    <style>-->
+    <!--        p {-->
+    <!--            background-color: blue;-->
+    <!--            color: white;-->
+    <!--        }-->
+    <!--    </style>-->
 
     <link href="index.css" rel="stylesheet"/>
 
@@ -30,6 +31,10 @@
 
 
 <h3>Style tag</h3>
+<!--we comment out the style tag in index.html
+since we won't be using it anymore &#45;&#45; ever.
+Instead, use the link tag to load the index.css file created earlier.-->
+
 <p>
     A slightly better way to configure look and feel
     is to declare CSS rules in the STYLE tag in the
@@ -89,7 +94,6 @@
 </div>
 
 
-
 <h2>Colors</h2>
 <h3 class="fg-color-blue">Foreground color</h3>
 <p class="fg-color-red">
@@ -111,24 +115,27 @@
     Dashed thin blue border</p>
 
 
-
 <h2>Padding</h2>
 <div class="padded-top-left border-fat border-red border-solid bg-color-yellow">
     Padded top left
 </div>
 <div class="padded-bottom-right border-fat border-blue border-solid bg-color-yellow">
-    Padded bottom right</div>
+    Padded bottom right
+</div>
 <div class="padding-fat border-fat border-yellow border-solid bg-color-blue fg-color-white">
-    Padded all around</div>
+    Padded all around
+</div>
 
 
 <h2>Margins</h2>
 <div class="margin-bottom padded-top-left border-fat border-red border-solid bg-color-yellow">
-    Margin bottom</div>
+    Margin bottom
+</div>
 <div class="margin-right-left padded-bottom-right border-fat border-blue border-solid bg-color-yellow">Margin left right
 </div>
 <div class="margin-all-around padding-fat border-fat border-yellow border-solid bg-color-blue fg-color-white">
-    Margin all around</div>
+    Margin all around
+</div>
 
 
 <h3>Rounded corners</h3>
@@ -146,8 +153,6 @@
 </p>
 
 
-
-
 <h2>Dimension</h2>
 <div>
     <div class="dimension-portrait bg-color-yellow">
@@ -162,19 +167,20 @@
 </div>
 
 
-
-
 <h2>Position</h2>
 <h3>Relative</h3>
 <div>
     <div class="bg-color-yellow dimension-portrait">
         <div class="pos-relative-nudge-down-right">
-            Portrait</div>
+            Portrait
+        </div>
     </div>
     <div class="pos-relative-nudge-up-right bg-color-blue fg-color-white dimension-landscape">
-        Landscape</div>
+        Landscape
+    </div>
     <div class="bg-color-red dimension-square">
-        Square</div>
+        Square
+    </div>
 </div>
 
 <!--OVERLAPPING How do I fix-->
@@ -202,12 +208,12 @@ Its position is "Fixed".
 <h2>Z index</h2>
 <div class="pos-relative min-height-150">
     <div class="pos-absolute-10-10 bg-color-yellow dimension-portrait">Portrait</div>
-    <div class="zindex-bring-to-front pos-absolute-50-50 bg-color-blue fg-color-white dimension-landscape">Landscape</div>
+    <div class="zindex-bring-to-front pos-absolute-50-50 bg-color-blue fg-color-white dimension-landscape">Landscape
+    </div>
     <div class="pos-absolute-120-20 bg-color-red dimension-square">
         Square
     </div>
 </div>
-
 
 
 <h2>Float</h2>
@@ -215,7 +221,7 @@ Its position is "Fixed".
     <div class="float-left dimension-portrait bg-color-yellow">Yellow</div>
     <div class="float-left dimension-portrait bg-color-blue fg-color-white">Blue</div>
     <div class="float-left dimension-portrait bg-color-red">Red</div>
-    <img class="float-right"      src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
+    <img class="float-right" src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"/>
     <div class="float-done"></div>
 </div>
 
