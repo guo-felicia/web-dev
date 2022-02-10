@@ -1,0 +1,220 @@
+.wd-background-color {
+    background-color: black;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-topnav {
+    margin-left: 16px;
+    padding-right: 12px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-post {
+    margin-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    border: 1px solid rgb(47, 51, 54);
+    height: 85px;
+}
+
+.wd-breakline {
+    background-color: rgb(33, 35, 39);
+    margin-left: 16px;
+    border: 2px solid rgb(47, 51, 54);
+    height: 10px;
+}
+
+.wd-search {
+    font-family: "Helvetica Neue";
+    float: left;
+    width: 100%;
+    height: 30px;
+    padding: 16px 16px 16px 16px;
+}
+
+.wd-round {
+    float: left;
+    background-color: rgb(33, 35, 39);
+    width: 80%;
+    height: 20px;
+    border-radius: 30px;
+    border-color: black;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+}
+
+.wd-gear {
+    color: rgb(29, 161, 242);
+    float: right;
+    font-size: 26px;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+/* Style the links inside the navigation bar */
+.wd-navigation a {
+    float: left;
+    background-color: black;
+    display: block;
+    padding: 16px 16px 16px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+/* Style the "active" element to highlight the current page */
+.wd-navigation a.wd-active {
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+
+.wd-label {
+    padding-left: 16px;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-title {
+    padding-left: 16px;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(233, 233, 233)
+}
+
+.wd-post-img {
+    float: left;
+    height: 85px;
+    width: 70%;
+}
+
+.wd-float-img {
+    padding: 16px 16px 16px 16px;
+    float: right;
+    display: inline;
+}
+
+/*style for BOOKMARK*/
+
+.wd-bookmark-post {
+    margin-left: 16px;
+    border: 1px solid rgb(47, 51, 54);
+    height: 55px;
+}
+
+.wd-main-content {
+    margin-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-bookmark {
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: white;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.wd-handel-13px {
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-bottom: 1px;
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+    float: left;
+}
+
+.wd-title-15px {
+    float: left;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    color: white;
+    margin: 12px 4px 0px 12px;
+}
+
+.wd-handel-15px {
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-content-15px {
+    margin: 12px 12px 12px 76px;
+    width: 506px;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    color: white;
+}
+
+.wd-img-post {
+    margin-left: 76px;
+    width: 504px;
+    height: 264px;
+    border-radius: 30px 30px 0px 0px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-content {
+    margin-left: 76px;
+    margin-top: 0px;
+    width: 480px;
+    height: 60px;
+    border-radius: 0px 0px 30px 30px;
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: white;
+    padding: 12px;
+}
+
+.wd-content-padding15px {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Helvetica Neue";
+    color: lightgray;
+}
+
+.wd-reaction {
+    margin-left: 76px;
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.wd-reaction a {
+    float: left;
+    display: block;
+    padding-left: 12px;
+    padding-right: 70px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    color: rgb(110, 118, 125);
+    margin-bottom: 20px;
+}
+
+/* Style the "active" element to highlight the current page */
+.wd-reaction a.wd-active {
+    color: rgb(206, 58, 96);
+    text-decoration: none;
+}
