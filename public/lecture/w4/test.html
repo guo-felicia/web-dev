@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .padding {
+            border: 1px green solid;
+            border-top: 10px red solid;
+            border-left: 20px blue solid;
+            padding-left: 30px;
+            padding-top: 40px;
+            background-color: yellow;
+        }
+    </style>
+    <style>h1.blue { background-color: blue }</style>
+    <style>h1#blue { background-color: blue }</style>
+    <style>.red #green { color : green }</style>
+    <style>div#red #green { color : green }</style>
+    <style>.red h1#green { color : green }</style>
+</head>
+<body>
+<div class="padding">
+    Hello World!
+</div>
+
+<h1 id="blue">Hello</h1>
+
+<div class="red">
+
+    <h1 id="green">Hello</h1>
+
+</div>
+
+<div id="red">
+
+    <h1 id="green">Hello</h1>
+
+</div>
+
+<div class="red">
+
+    <h1 id="green">Hello</h1>
+
+</div>
+
+</body>
+</html>
