@@ -1,24 +1,29 @@
 .wd-background-color {
     background-color: black;
+}
+
+.wd-container {
+    overflow: hidden;
+    position: absolute;
+    width: 600px;
+    left: 30%;
     border: 1px solid rgb(47, 51, 54);
 }
 
 .wd-topnav {
-    margin-left: 16px;
-    padding-right: 12px;
-    border: 1px solid rgb(47, 51, 54);
+    /*margin-left: 16px;*/
+    /*padding-right: 12px;*/
+    /*border: 1px solid rgb(47, 51, 54);*/
     height: 115px;
 }
 
 .wd-post {
-    margin-left: 16px;
     padding: 16px;
     border: 1px solid rgb(47, 51, 54);
 }
 
 .wd-breakline {
     background-color: rgb(33, 35, 39);
-    margin-left: 16px;
     border: 2px solid rgb(47, 51, 54);
     height: 10px;
 }
@@ -26,15 +31,15 @@
 .wd-search {
     font-family: "Helvetica Neue";
     float: left;
-    width: 100%;
+    width: 95%;
     height: 30px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
 }
 
 .wd-round {
     float: left;
     background-color: rgb(33, 35, 39);
-    width: 80%;
+    width: 70%;
     height: 20px;
     border-radius: 30px;
     border-color: black;
@@ -55,7 +60,7 @@
     float: left;
     background-color: black;
     display: block;
-    margin: 16px;
+    padding: 16px;
     text-decoration: none;
     font-size: 15px;
     font-family: "Helvetica Neue";
@@ -67,7 +72,15 @@
 .wd-navigation a.wd-active {
     color: rgb(29, 161, 242);
     text-decoration: none;
-    padding-bottom: 13px;
+}
+
+.wd-border-rounded {
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 99px;
+    width: 16px;
+    position: relative;
+    left: 16px;
     border-bottom: 4px solid rgb(29, 161, 242);
 }
 
@@ -102,7 +115,6 @@
 
 .wd-post-content {
     height: 100px;
-    margin-left: 16px;
     padding: 16px;
     border: 1px solid rgb(47, 51, 54);
 }
@@ -110,17 +122,22 @@
 
 /*= = = = = = = = = = = = = = = = = BOOKMARK STYLE = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =*/
 
-.wd-bookmark-post {
-    margin-left: 16px;
+.wd-bookmark-container {
+    overflow: hidden;
+    position: absolute;
+    width: 600px;
+    left: 30%;
     border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-bookmark-post {
     height: 55px;
 }
 
 .wd-main-content {
-    margin-left: 16px;
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
     padding-bottom: 16px;
-    padding-right: 16px;
-    border: 1px solid rgb(47, 51, 54);
 }
 
 .wd-bookmark {
@@ -168,7 +185,7 @@
 
 .wd-content-15px {
     margin: 12px 12px 12px 76px;
-    width: 506px;
+    max-width: 506px;
     font-family: "Helvetica Neue";
     font-size: 15px;
     color: white;
@@ -178,16 +195,16 @@
     margin-left: 76px;
     width: 504px;
     height: 264px;
-    border-radius: 30px 30px 0px 0px;
-    border: 1px solid rgb(47, 51, 54);
+    border-radius: 25px 25px 0px 0px;
+    position: relative;
 }
 
 .wd-content {
     margin-left: 76px;
-    margin-top: 0px;
-    width: 480px;
+    margin-top: -5px;
+    width: 478px;
     height: 60px;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 25px 25px;
     border: 1px solid rgb(47, 51, 54);
     border-top: none;
     font-size: 15px;
@@ -195,6 +212,7 @@
     font-weight: bold;
     color: white;
     padding: 12px;
+    position: relative;
 }
 
 .wd-content-padding15px {
@@ -227,3 +245,5 @@
     color: rgb(206, 58, 96);
     text-decoration: none;
 }
+
+
