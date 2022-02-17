@@ -3,100 +3,376 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore Page</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="explore.css" rel="stylesheet"/>
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+
+    <!--temprary used-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+    />
+
 </head>
 
-<body class="wd-background-color">
+<body>
+<div class="container">
+    <div class="row p-2">
+        <div class="col-3 bg-color-1">
+            <div class="list-group">
+                <div class="list-group border">
+                    <i class="fab fa-twitter"></i>
+                    <a href="home.html" class="list-group-item list-group-item-action">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <a href="#explore" class="list-group-item list-group-item-action active"
+                       aria-current="true">
+                        <i class="fas fa-hashtag"></i>
+                        Explore
+                    </a>
+                    <a href="#notifications" class="list-group-item list-group-item-action">
+                        <i class="fas fa-bell"></i>
+                        Notifications
+                    </a>
+                    <a href="#message" class="list-group-item list-group-item-action">
+                        <i class="fas fa-envelope"></i>
+                        Messages
+                    </a>
+                    <a href="bookmarks.html" class="list-group-item list-group-item-action">
+                        <i class="fas fa-bookmark"></i>
+                        Bookmarks
+                    </a>
+                    <a href="#lists" class="list-group-item list-group-item-action">
+                        <i class="fas fa-list"></i>
+                        Lists
+                    </a>
+                    <a href="profile.html" class="list-group-item list-group-item-action">
+                        <i class="fas fa-user-alt"></i>
+                        Profile
+                    </a>
+                    <a href="#more" class="list-group-item list-group-item-action">
+                        <i class="fas fa-ellipsis-h"></i>
+                        More
+                    </a>
 
-<div class="wd-container">
-    <div class="wd-topnav">
-        <div class="wd-search">
-            <input type="text" name="search" placeholder="Search Twitter" class="wd-round"/>
-            <a class="wd-gear" href="explore-settings.html">&#9881;</a>
+                </div>
+                <!--tweets button-->
+                <button class="btn btn-primary override-bs m-2">
+                    Tweet
+                </button>
+            </div>
+
         </div>
-        <div class="wd-navigation">
-            <a class="wd-active" href="#foryou">For you</a>
-            <a class="wd-inactive" href="#trending">Trending</a>
-            <a class="wd-inactive" href="#covid-19">COVID-19</a>
-            <a class="wd-inactive" href="#news">News</a>
-            <a class="wd-inactive" href="#sports">Sports</a>
-            <a class="wd-inactive" href="#entertainment">Entertainment</a>
+        <div class="col-6">
+            <!--Search Bar-->
+            <div class="mb-0">
+                <div class="wd-widgets-input">
+                    <i class="fas fa-search p-1 wd-search-icon"></i>
+                    <input type="text" placeholder="Search Twitter" class="wd-search"/>
+                    <!--Gear-->
+                </div>
+                <i class="fas fa-cog wd-gear"></i>
+            </div>
+
+            <!--Navigation Bar-->
+            <ul class="nav nav-tabs wd-mt-10px">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+
+            <!--Main Contents-->
+            <!--Main Post-->
+            <div class="card border-0">
+                <img src="image/starship.jpeg" class="wd-main-img">
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end wd-title-23px">
+                    <p>SpaceX's Starship</p>
+                </div>
+            </div>
+
+            <!--Posts-->
+            <div class="wd-container-card">
+                <div class="wd-left-element">
+                    <p class="wd-label-13px">Web Development</p>
+                    <div class=" d-flex align-items-center">
+                        <p class="wd-title-13px">ReactJS</p>
+                        <i class="fas fa-check-circle wd-check-icon"></i>
+                        <p class="wd-timestamp-13px">- 2h</p>
+                    </div>
+                    <p class="wd-title-15px wd-m-2px">
+                        React JS is a JavaScript library for building user interfaces to create
+                        interactive UIs.
+                    </p>
+                </div>
+                <div class="wd-right-element">
+                    <img class="wd-card-img-right rounded d-flex h-75" src="image/js1.svg"/>
+                </div>
+            </div>
+            <!--example2-->
+            <div class="wd-container-card">
+                <div class="wd-left-element">
+                    <div class="wd-title-block d-flex align-items-center">
+                        <p class="wd-title-13px m-0">JavaScrip</p>
+                        <i class="fas fa-check-circle wd-check-icon"></i>
+                        <p class="wd-timestamp-13px">- 2h</p>
+                    </div>
+                    <p class="wd-title-15px wd-m-2px">
+                        JavaScrips is a Language for building user interfaces to create
+                        interactive UIs.
+                    </p>
+                    <p class="wd-label-13px">123K Tweets</p>
+                </div>
+                <div class="wd-right-element">
+                    <img class="wd-card-img-right rounded d-flex h-75" src="image/js.png"/>
+                </div>
+            </div>
+            <!--example3-->
+            <div class="wd-container-card">
+                <div class="wd-left-element">
+                    <p class="wd-label-13px">Web Development</p>
+                    <div class="wd-title-block d-flex align-items-center">
+                        <p class="wd-title-15px">JQuery</p>
+                    </div>
+                    <p class="wd-label-13px wd-m-2px">123K Tweets</p>
+                </div>
+                <div class="wd-right-element">
+                    <img class="wd-card-img-right rounded d-flex h-75" src="image/jq.png"/>
+                </div>
+            </div>
+            <!--example4-->
+            <div class="wd-container-card">
+                <div class="wd-left-element">
+                    <p class="wd-label-13px">Web Development</p>
+                    <div class="wd-title-block d-flex align-items-center">
+                        <p class="wd-title-15px">NodeJS</p>
+                        <i class="fas fa-check-circle wd-check-icon"></i>
+                        <p class="wd-timestamp-13px">-2h</p>
+                    </div>
+                    <p class="wd-label-13px wd-m-2px">123K Tweets</p>
+                </div>
+                <div class="wd-right-element">
+                    <img class="wd-card-img-right rounded d-flex h-75" src="image/njs.png"/>
+                </div>
+            </div>
+
+
         </div>
-    </div>
-    <div id="bottom" class="wd-border-rounded"></div>
-    <div class="wd-breakline">
 
-    </div>
-
-    <div class="wd-post">
-        <p class="wd-label">Trending in Science</p>
-        <p class="wd-title">Starship</p>
-        <p class="wd-label">55.5K Tweets</p>
-    </div>
-
-    <div class="wd-post">
-        <p class="wd-label">Sports - Trending</p>
-        <p class="wd-title">Joe Rogan</p>
-        <p class="wd-label">5,218 Tweets</p>
-    </div>
-
-    <!--post with image-->
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-title">The New York Time</p>
-            <p class="wd-title">CNN's Cuomo conundrum: A star anchor with a brother in trouble </p>
-        </div>
-        <img class="wd-float-img" src="image/t1.jpg"/>
-    </div>
-
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-label">COVID-19 - Live</p>
-            <p class="wd-title">COVID-19: News and updates for Massachusetts</p>
-        </div>
-        <img class="wd-float-img" src="image/t3.jpg"/>
-    </div>
-
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-title">Bloomberg Opinion</p>
-            <p class="wd-title">thinking about getting a booster? Read this first </p>
-        </div>
-        <img class="wd-float-img" src="image/t2.jpg"/>
-    </div>
-
-    <div class="wd-post">
-        <p class="wd-label">Trending in United States</p>
-        <p class="wd-title">Wonder Bread</p>
-        <p class="wd-label">1,259 Tweets</p>
-    </div>
-
-    <!--post with image-->
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-title">POPSUGAR UK</p>
-            <p class="wd-title">Zendaya's Madame Tussauds Wax Figure Is Met With Mixed Reviews</p>
-        </div>
-        <img class="wd-float-img" src="image/t5.jpg"/>
-    </div>
-
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-label">Beijing 2022 - LIVE</p>
-            <p class="wd-title">Beijing 2022: The United States at the Olympic Winter Games</p>
-        </div>
-        <img class="wd-float-img" src="image/t4.jpg"/>
-    </div>
-
-    <div class="wd-post-content">
-        <div class="wd-post-img">
-            <p class="wd-title">Metro</p>
-            <p class="wd-title">McDonalds is planning to open restaurants in the Metaverse</p>
-        </div>
-        <img class="wd-float-img" src="image/t6.jpg"/>
+        <div class="col-3 bg-color-3">
+            <h3>Sidebar</h3></div>
     </div>
 </div>
 
+<!--<div class="d-none d-sm-block d-md-none fa-2x">S</div>-->
+<!--<div class="d-none d-md-block d-lg-none fa-2x">M</div>-->
+<!--<div class="d-none d-lg-block d-xl-none fa-2x">L</div>-->
+<!--<div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>-->
+<!--<div class="d-none d-xxl-block fa-2x">XXL</div>-->
+
+<!--XXL full expansion-->
+<div class="d-none d-xxl-block fa-2x">
+    <h1>XXL size</h1>
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed__header">
+            <h2>Home</h2>
+        </div>
+
+        <!-- tweetbox starts -->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox__input">
+                    <img
+                            src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                            alt=""
+                    />
+                    <input type="text" placeholder="What's happening?"/>
+                </div>
+                <button class="tweetBox__tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- tweetbox ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Somanath Goudar
+                            <span class="post__headerSpecial"
+                            ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                            >
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img
+                        src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
+                        alt=""
+                />
+                <div class="post__footer">
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img
+                        src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
+                        alt=""
+                />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Somanath Goudar
+                            <span class="post__headerSpecial"
+                            ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                            >
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img
+                        src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"
+                        alt=""
+                />
+                <div class="post__footer">
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+    </div>
 
 </body>
+
+<!--<body class="wd-background-color">-->
+
+<!--<div class="wd-container">-->
+<!--    <div class="wd-topnav">-->
+<!--        <div class="wd-search">-->
+<!--            <input type="text" name="search" placeholder="Search Twitter" class="wd-round"/>-->
+<!--            <a class="wd-gear" href="explore-settings.html">&#9881;</a>-->
+<!--        </div>-->
+<!--        <div class="wd-navigation">-->
+<!--            <a class="wd-active" href="#foryou">For you</a>-->
+<!--            <a class="wd-inactive" href="#trending">Trending</a>-->
+<!--            <a class="wd-inactive" href="#covid-19">COVID-19</a>-->
+<!--            <a class="wd-inactive" href="#news">News</a>-->
+<!--            <a class="wd-inactive" href="#sports">Sports</a>-->
+<!--            <a class="wd-inactive" href="#entertainment">Entertainment</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div id="bottom" class="wd-border-rounded"></div>-->
+<!--    <div class="wd-breakline">-->
+
+<!--    </div>-->
+
+<!--    <div class="wd-post">-->
+<!--        <p class="wd-label">Trending in Science</p>-->
+<!--        <p class="wd-title">Starship</p>-->
+<!--        <p class="wd-label">55.5K Tweets</p>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post">-->
+<!--        <p class="wd-label">Sports - Trending</p>-->
+<!--        <p class="wd-title">Joe Rogan</p>-->
+<!--        <p class="wd-label">5,218 Tweets</p>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;post with image&ndash;&gt;-->
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-title">The New York Time</p>-->
+<!--            <p class="wd-title">CNN's Cuomo conundrum: A star anchor with a brother in trouble </p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t1.jpg"/>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-label">COVID-19 - Live</p>-->
+<!--            <p class="wd-title">COVID-19: News and updates for Massachusetts</p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t3.jpg"/>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-title">Bloomberg Opinion</p>-->
+<!--            <p class="wd-title">thinking about getting a booster? Read this first </p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t2.jpg"/>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post">-->
+<!--        <p class="wd-label">Trending in United States</p>-->
+<!--        <p class="wd-title">Wonder Bread</p>-->
+<!--        <p class="wd-label">1,259 Tweets</p>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;post with image&ndash;&gt;-->
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-title">POPSUGAR UK</p>-->
+<!--            <p class="wd-title">Zendaya's Madame Tussauds Wax Figure Is Met With Mixed Reviews</p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t5.jpg"/>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-label">Beijing 2022 - LIVE</p>-->
+<!--            <p class="wd-title">Beijing 2022: The United States at the Olympic Winter Games</p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t4.jpg"/>-->
+<!--    </div>-->
+
+<!--    <div class="wd-post-content">-->
+<!--        <div class="wd-post-img">-->
+<!--            <p class="wd-title">Metro</p>-->
+<!--            <p class="wd-title">McDonalds is planning to open restaurants in the Metaverse</p>-->
+<!--        </div>-->
+<!--        <img class="wd-float-img" src="image/t6.jpg"/>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
 </html>
