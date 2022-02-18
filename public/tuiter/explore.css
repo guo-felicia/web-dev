@@ -297,6 +297,12 @@ body {
     color: rgb(110, 118, 125);
 }
 
+.wd-label-15px {
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
 .wd-timestamp-13px {
     display: inline-block;
     float: left;
@@ -369,4 +375,25 @@ body {
 .wd-m-2px{
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.wd-bold{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.wd-height-23px{
+    height: 23px;
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
 }
