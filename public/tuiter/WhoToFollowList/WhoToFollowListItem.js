@@ -1,7 +1,5 @@
 const WhoToFollowListItem = (who) => {
-    return(`
-        <li>
-
+    return (`
             <div class="wd-container-card">
                 <div class="wd-left-avatar">
                     <img class="wd-avatar" src="${who.avatarIcon}" alt="Avatar">
@@ -11,7 +9,7 @@ const WhoToFollowListItem = (who) => {
                         <p class="wd-title-15px m-0">${who.userName}</p>
                         <i class="fas fa-check-circle wd-icon"></i>
                     </div>
-                    <div class="wd-label-15px">@${who.handle}</div>
+                    <div class="wd-label-15px">@${who.handleTag}</div>
 
                 </div>
                 <div class="wd-right-element">
@@ -20,6 +18,6 @@ const WhoToFollowListItem = (who) => {
                     </button>
                 </div>
             </div>
-        </li>`);
+        `);
 }
 export default WhoToFollowListItem;

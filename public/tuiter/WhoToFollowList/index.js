@@ -1,13 +1,13 @@
-import WhoToFollowListItem from "./WhoToFollowListItem";
-import who from "./who.js"
+import WhoToFollowListItem from "./WhoToFollowListItem.js";
+import who from "./who.js";
 
 const WhoToFollowList = () => {
     return (`
             <ul class="list-group">
             <!-- continue here -->
             ${
-                who.map(who => {
-                    return(WhoToFollowListItem(who));
+                who.map(whoItem => {
+                    return(WhoToFollowListItem(whoItem));
                 }).join('')
             }
             </ul>
