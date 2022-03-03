@@ -5,7 +5,7 @@ const WhoToFollowListItem = (
     // 2. Object deconstructed parameter
     {
         who = {
-            avatarIcon: '../../../../public/tuiter/image/avatar3.jpg',
+            avatarIcon: '/src/components/Tuiter/img/avatar/nasa.jpg',
             userName: 'NASA',
             handle: 'NASA',
         }

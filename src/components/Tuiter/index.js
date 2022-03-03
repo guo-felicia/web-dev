@@ -2,12 +2,19 @@ import React from "react";
 import {Link} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar/index"
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
+import WhoToFollowList from "./WhoToFollowList/index"
 
 const Tuiter = () => {
     return (
         <>
             <NavigationSidebar active="home"/>
             <WhoToFollowListItem/>
+            <WhoToFollowList/>
+            {/*<WhoToFollowListItem who={{*/}
+            {/*    avatarIcon: '../Tuiter/img/avatar/virging.svg',*/}
+            {/*    userName: 'Virgin Galactic',*/}
+            {/*    handle: 'virgingalactic',*/}
+            {/*}}/>*/}
         </>
     )
 };
