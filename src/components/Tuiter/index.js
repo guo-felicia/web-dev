@@ -11,12 +11,12 @@ import ExploreScreen from "./ExploreScreen/ExploreScreen";
 const Tuiter = () => {
     return (
         <>
-            <NavigationSidebar active="home"/>
-            <WhoToFollowListItem/>
-            <WhoToFollowList/>
-            <PostSummaryItem/>
-            <PostSummaryList/>
-            <ExploreComponent/>
+            {/*<NavigationSidebar active="home"/>*/}
+            {/*<WhoToFollowListItem/>*/}
+            {/*<WhoToFollowList/>*/}
+            {/*<PostSummaryItem/>*/}
+            {/*<PostSummaryList/>*/}
+            {/*<ExploreComponent/>*/}
             <ExploreScreen/>
             
             {/*<WhoToFollowListItem who={{*/}
