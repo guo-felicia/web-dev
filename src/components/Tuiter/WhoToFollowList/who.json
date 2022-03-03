@@ -1,21 +1,21 @@
 [
   {
-    "avatarIcon": "/src/components/Tuiter/img/avatar/java.png",
+    "avatarIcon": "/img/avatar/java.png",
     "userName": "Java",
     "handle": "Java"
   },
   {
-    "avatarIcon": "/src/components/Tuiter/img/avatar/rs.jpeg",
+    "avatarIcon": "/img/avatar/rs.jpeg",
     "userName": "Relativity Space",
     "handle": "relativityspace"
   },
   {
-    "avatarIcon": "/src/components/Tuiter/img/avatar/nasa.jpg",
+    "avatarIcon": "/img/avatar/nasa.jpg",
     "userName": "NASA",
     "handle": "NASA"
   },
   {
-    "avatarIcon": "/src/components/Tuiter/img/avatar/tesla.jpeg",
+    "avatarIcon": "/img/avatar/tesla.jpeg",
     "userName": "Tesla",
     "handle": "Tesla"
   }

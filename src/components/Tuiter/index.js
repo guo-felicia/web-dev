@@ -3,6 +3,10 @@ import {Link} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar/index"
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
 import WhoToFollowList from "./WhoToFollowList/index"
+import PostSummaryItem from "./PostSummaryList/PostSummaryItem";
+import PostSummaryList from "./PostSummaryList/index"
+import ExploreComponent from "./ExploreScreen/ExploreComponent";
+import ExploreScreen from "./ExploreScreen/ExploreScreen";
 
 const Tuiter = () => {
     return (
@@ -10,11 +14,26 @@ const Tuiter = () => {
             <NavigationSidebar active="home"/>
             <WhoToFollowListItem/>
             <WhoToFollowList/>
+            <PostSummaryItem/>
+            <PostSummaryList/>
+            <ExploreComponent/>
+            <ExploreScreen/>
+            
             {/*<WhoToFollowListItem who={{*/}
-            {/*    avatarIcon: '../Tuiter/img/avatar/virging.svg',*/}
+            {/*    avatarIcon: '/img/avatar/virging.svg',*/}
             {/*    userName: 'Virgin Galactic',*/}
             {/*    handle: 'virgingalactic',*/}
             {/*}}/>*/}
+    
+            {/*<PostSummaryItem post={{*/}
+            {/*    "topic": "Web Development",*/}
+            {/*    "userName": "",*/}
+            {/*    "title": "jQuery",*/}
+            {/*    "time": "last week",*/}
+            {/*    "image": "/img/posts/2jq.jpeg",*/}
+            {/*    "tweets": "122K"*/}
+            {/*}}/>*/}
+
         </>
     )
 };
