@@ -1,5 +1,6 @@
 // 1. Import React.js
 import React from "react";
+import "../explore.css"
 
 const WhoToFollowListItem = (
     // 2. Object deconstructed parameter

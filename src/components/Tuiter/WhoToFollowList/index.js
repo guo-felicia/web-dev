@@ -6,6 +6,7 @@ import WhoToFollowListItem from "./WhoToFollowListItem"
 const WhoToFollowList = () => {
     return (
         <ul className="list-group">
+            <p className="wd-bold wd-height-23px">Who to Follow</p>
             {
                 who.map(whoItem => {
                     return (
