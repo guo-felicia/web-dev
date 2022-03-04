@@ -13,7 +13,7 @@ const WhoToFollowListItem = (
     }
 ) => {
     return (
-            <div className="wd-container-card">
+            <div className="wd-container-card list-group-item">
                 <div className="wd-left-avatar">
                     <img className="wd-avatar" src={who.avatarIcon} alt="Avatar"/>
                 </div>

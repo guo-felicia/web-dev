@@ -15,7 +15,7 @@ const PostSummaryItem = (
 ) => {
     return (
         // 3&4&5.
-        <div className="wd-container-card">
+        <div className="wd-container-card list-group-item">
             <div className="wd-left-element">
                 <p className="wd-label-13px">{posts.topic}</p>
                 <div className=" d-flex align-items-center">
