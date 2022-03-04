@@ -1,6 +1,6 @@
 const PostSummaryItem = (posts) => {
     return (`
-            <div class="wd-container-card">
+            <div class="wd-container-card list-group-item">
                 <div class="wd-left-element">
                     <p class="wd-label-13px">${posts.topic}</p>
                     <div class=" d-flex align-items-center">
