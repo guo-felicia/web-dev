@@ -17,6 +17,12 @@ const Tuiter = () => {
             {/*<PostSummaryItem/>*/}
             {/*<PostSummaryList/>*/}
             {/*<ExploreComponent/>*/}
+            <Link to="/labs">
+                Labs
+            </Link> |
+            <Link to="/hello">
+                Hello
+            </Link> |
             <ExploreScreen/>
             
             {/*<WhoToFollowListItem who={{*/}
