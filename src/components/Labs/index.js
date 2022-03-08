@@ -8,6 +8,13 @@ import TodoList from "./Todo/TodoList"
 const Labs = () => {
     return(
         <div>
+            <h1>Hello World!</h1>
+            <Link to="/hello">
+                Hello
+            </Link> |
+            <Link to="/tuiter">
+                Tuiter
+            </Link>
             <h1>Labs</h1>
             <ConditionalOutput/>
             <Styles/>
