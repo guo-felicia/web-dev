@@ -7,8 +7,7 @@ import './App.css';
 import HelloWorld from "./components/HelloWorld";
 import Labs from "./components/Labs/index";
 import Tuiter from "./components/Tuiter/index";
-import Practice from "./components/a7/Practice";
-import Build from "./components/a7/Build";
+
 
 function App() {
     return (
@@ -24,14 +23,7 @@ function App() {
                     <Route path="/tuiter" exact={true}>
                         <Tuiter/>
                     </Route>
-                    {/*Add A7*/}
-                    <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
-                        <Practice/>
-                    </Route>
-                    <Route path="/a7/twitter">
-                        <Build/>
-                    </Route>
-
+                
                 </div>
             </div>
         </BrowserRouter>

@@ -5,15 +5,19 @@ import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import TodoItem from "./Todo/TodoItem";
 import TodoList from "./Todo/TodoList"
+import ReduxExamples from "./ReduxExamples/components";
 const Labs = () => {
     return(
         <div>
             <h1>Labs</h1>
-            <ConditionalOutput/>
-            <Styles/>
-            <Classes/>
-            <TodoItem/>
-            <TodoList/>
+            {/*A7*/}
+            <ReduxExamples/>
+            {/*A6*/}
+            {/*<ConditionalOutput/>*/}
+            {/*<Styles/>*/}
+            {/*<Classes/>*/}
+            {/*<TodoItem/>*/}
+            {/*<TodoList/>*/}
         </div>
     )
 };
