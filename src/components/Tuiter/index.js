@@ -22,7 +22,7 @@ const Tuiter = () => {
             </Link> |
             <Link to="/hello">
                 Hello
-            </Link> |
+            </Link>
             <ExploreScreen/>
             
             {/*<WhoToFollowListItem who={{*/}

@@ -8,12 +8,6 @@ import TodoList from "./Todo/TodoList"
 const Labs = () => {
     return(
         <div>
-            <h1>Labs</h1>
-            <ConditionalOutput/>
-            <Styles/>
-            <Classes/>
-            <TodoItem/>
-            <TodoList/>
             <h1>Hello World!</h1>
             <Link to="/hello">
                 Hello
@@ -21,6 +15,12 @@ const Labs = () => {
             <Link to="/tuiter">
                 Tuiter
             </Link>
+            <h1>Labs</h1>
+            <ConditionalOutput/>
+            <Styles/>
+            <Classes/>
+            <TodoItem/>
+            <TodoList/>
         </div>
     )
 };
