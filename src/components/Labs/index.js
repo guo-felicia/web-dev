@@ -9,6 +9,10 @@ import ReduxExamples from "./ReduxExamples/components";
 const Labs = () => {
     return(
         <div>
+            <h1>Tuiter</h1>
+            <Link to="/tuiter">
+                Tuiter
+            </Link>
             <h1>Labs</h1>
             {/*A7*/}
             <ReduxExamples/>

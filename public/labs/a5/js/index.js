@@ -378,3 +378,39 @@ showBtn.click(showHandler);
 
 
 
+
+////test
+let gu = {
+    si: 'da',
+    cf: 'qe'
+}
+let uj = {
+    cf: 'do',
+    co: 'db',
+    ...gu,
+}
+gu = {
+    ...uj,
+    cf: 'wh',
+    co: 'nd'
+}
+
+
+console.log("TEST")
+console.log(gu.si)
+console.log(uj.cf)
+console.log(gu.co)
+
+
+let qq = [21,32,43,54,65,76];
+let ww = [98,87];
+let ee = [65,54,43,32,ww,...qq]
+console.log(ee.length)
+
+const PC = () => <h1>GO</h1>
+const PC2 = () => { return(<h1>GO</h1>) }
+
+function PC3() {
+    return(<h1>GO</h1>)
+}
+
