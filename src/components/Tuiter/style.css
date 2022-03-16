@@ -1,0 +1,106 @@
+.wd-main-content {
+    border-top: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding-bottom: 16px;
+}
+
+
+.wd-handel-13px {
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin:0px 12px 0px 0px;
+    float: left;
+}
+
+.wd-title-15px {
+    float: left;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    color: white;
+}
+
+.wd-handel-15px {
+    margin-bottom: 0px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+
+.wd-content-15px {
+    display: block;
+    margin: 12px 12px 12px 60px;
+    max-width: 506px;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    color: white;
+}
+
+.wd-img-post {
+    margin-left: 60px;
+    width: 442px;
+    height: 232px;
+    border-radius: 5%;
+}
+
+.wd-content {
+    margin-left: 76px;
+    margin-top: -5px;
+    width: 478px;
+    height: 60px;
+    border-radius: 0px 0px 25px 25px;
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: white;
+    padding: 12px;
+    position: relative;
+}
+
+.wd-content-padding15px {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Helvetica Neue";
+    color: lightgray;
+}
+
+.wd-reaction {
+    margin: 12px 0px 0px 48px;
+    color: lightgray;
+}
+
+.wd-stats{
+    float: right;
+    padding:0px 0px 0px 12px;
+}
+
+.wd-reaction a {
+    float: left;
+    display: block;
+    padding-left: 12px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    color: rgb(110, 118, 125);
+}
+
+/* Style the "active" element to highlight the current page */
+.wd-reaction a.wd-active {
+    color: rgb(206, 58, 96);
+    text-decoration: none;
+}
+
+
