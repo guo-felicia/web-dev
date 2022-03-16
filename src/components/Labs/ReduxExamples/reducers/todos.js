@@ -53,41 +53,25 @@ const data = [
     },
 ];
 
-//Final version
-// const todos = (state = data, action) => {
-//     switch (action.type) {
-//         case 'update-todo':
-//             const newTodos = state.map(todo => {
-//                 const newTodo = todo._id === action.todo._id ? action.todo : todo;
-//                 return newTodo;
-//             });
-//             return newTodos;
-//         case 'delete-todo':
-//             return state.filter(todo => todo !== action.todo);
-//         case 'create-todo':
-//             const newTodo = {
-//                 ...action.todo,
-//                 _id: (new Date()).getDate() + ""
-//             };
-//             return [
-//                 ...state,
-//                 newTodo
-//             ]
-//         default:
-//             return state;
-//     }
-// }
-
 const todos = (state = data, action) => {
     switch (action.type) {
+        case 'update-todo':
+            const newTodos = state.map(todo => {
+                const newTodo = todo._id === action.todo._id ? action.todo : todo;
+                return newTodo;
+            });
+            return newTodos;
         case 'delete-todo':
             return state.filter(todo => todo !== action.todo);
         case 'create-todo':
+            const newTodo = {
+                ...action.todo,
+                _id: (new Date()).getTime() + ""
+            };
             return [
                 ...state,
-                action.todo
+                newTodo
             ]
-        
         default:
             return state;
     }
