@@ -1,11 +1,15 @@
 import React from "react";
-import tuits from "./tuits.json";
+import {useSelector} from "react-redux";
 import TuitListItem
     from "./TuitListItem";
 import '../explore.css';
 import '../style.css'
 
 const TuitList = () => {
+    // get the tuits from the state in the store
+    const tuits = useSelector(
+        state => state.tuits);
+    
     return (
         <ul className="ttr-tuits list-group">
             {

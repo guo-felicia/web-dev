@@ -1,16 +1,18 @@
 import React from "react";
 
-import {Route} from "react-router-dom";
-// import HomeScreen from "./home-screen";
-import ExploreScreen from "./ExploreScreen/ExploreScreen.js";
 import whoReducer from "../../reducers/whoReducer";
-import {createStore} from "redux";
+import tuitsReducer from "../../reducers/tuitsReducer";
+import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import WhoToFollowList from "./WhoToFollowList/index";
 import {Outlet} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar/index";
 
-const store = createStore(whoReducer);
+// combine reducers into single reducer
+const reducer = combineReducers({
+    tuits: tuitsReducer, who: whoReducer
+});
+const store = createStore(reducer);
 const Tuiter = () => {
     return (
         <Provider store={store}>
