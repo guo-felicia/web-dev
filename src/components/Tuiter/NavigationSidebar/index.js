@@ -20,7 +20,7 @@ const NavigationSidebar = (
                         Home
                     </div>
                 </a>
-                <a href="#explore" className="list-group-item list-group-item-action"
+                <a href="explore" className="list-group-item list-group-item-action"
                    aria-current="true">
                     <i className="fas fa-hashtag wd-icon"></i>
                     <div className="wd-sidebar-15px">

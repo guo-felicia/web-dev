@@ -12,7 +12,7 @@ const TuitListItem = ({tuit}) => {
         <div className="list-group-item">
             <i onClick={() =>
                 deleteTuit(tuit)}
-               className="far fa-times fa-2x fa-pull-right wd-delete"></i>
+               className="fas fa-backspace fa-2x fa-pull-right wd-delete"></i>
             <div>
                 <img className="wd-avatar" src={tuit["avatar-image"]} alt="Avatar"/>
             </div>

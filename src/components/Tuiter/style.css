@@ -106,8 +106,31 @@
 
 
 .wd-delete{
-    color: white;
+    color: gray;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.wd-whatsHappening{
+    background-color: black;
+    width: 450px;
+    height: 80px;
+}
+
+.wd-tuit{
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.wd-icon-wh{
+    color: rgb(78,158,209);
+    margin: 15px;
+}
+
+.wd-m-60px{
+    margin-left: 60px;
 }
 
 
