@@ -9,9 +9,13 @@ import ReduxExamples from "./ReduxExamples/components";
 const Labs = () => {
     return(
         <div>
-            <h1>Tuiter</h1>
+            <h1>Tuiter Home Screen</h1>
             <Link to="/tuiter">
-                Tuiter
+                Tuiter Home
+            </Link>
+            <h1>Tuiter Explore Screen</h1>
+            <Link to="/tuiter/explore">
+                Tuiter Explore Screen
             </Link>
             <h1>Labs</h1>
             {/*A7*/}
