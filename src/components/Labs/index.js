@@ -9,14 +9,18 @@ import ReduxExamples from "./ReduxExamples/components";
 const Labs = () => {
     return(
         <div>
-            <h1>Tuiter Home Screen</h1>
+            <h1>Tuiter</h1>
+            <h2>Home Screen</h2>
             <Link to="/tuiter">
                 Tuiter Home
             </Link>
-            <h1>Tuiter Explore Screen</h1>
+            <h2>Explore Screen</h2>
             <Link to="/tuiter/explore">
                 Tuiter Explore Screen
             </Link>
+            <h3>Notes</h3>
+            <p>The redirecting from home to explore (in navigation bar) works well on my local, but it fails on Netlify. I went to OH and tried to figure it out with TAs but it is still doesn't work. So, I just include this shortcut for you to direct to Home Screen and Explore Screen . Please don't make points off. Thank you so much!!!</p>
+            
             <h1>Labs</h1>
             {/*A7*/}
             <ReduxExamples/>

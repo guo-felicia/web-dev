@@ -26,8 +26,6 @@ function App() {
                                element={<Tuiter/>}>
                             <Route index
                                    element={<HomeScreen/>}/>
-                            <Route path="home"
-                                   element={<HomeScreen/>}/>
                             <Route path="explore"
                                    element={<ExploreScreen/>}/>
                             <Route path="notifications"
