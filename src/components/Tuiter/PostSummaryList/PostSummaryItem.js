@@ -28,7 +28,7 @@ const PostSummaryItem = (
                 </p>
             </div>
             <div class="wd-right-element">
-                <img class="wd-card-img-right rounded d-flex h-75" src={posts.image}/>
+                <img className="wd-card-img-right rounded d-flex h-75" src={posts.image}/>
             </div>
         </div>
     );
