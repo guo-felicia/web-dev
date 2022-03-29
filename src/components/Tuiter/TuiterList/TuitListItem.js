@@ -23,7 +23,18 @@ const TuitListItem = ({tuit}) => {
             <div className="wd-content-15px">
                 {tuit.tuit}
             </div>
-            <img className="wd-img-post" src={tuit.attachments}/>
+            {/*//Question*/}
+            <iframe className="wd-img-post" src="https://www.youtube.com/embed/unKvMC3Y1kI"
+                    title="YouTube video player" frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen></iframe>
+            {tuit.attachments && tuit.attachments.image && <img></img>}
+            {tuit.attachments && tuit.attachments.video &&
+                <iframe className="wd-img-post" src={"https://www.youtube.com/embed/" + tuit.attachments.video}
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>}
+            
             
             <TuitStats tuit={tuit}/>
         
