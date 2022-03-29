@@ -14,13 +14,13 @@ const NavigationSidebar = (
             <div className="list-group">
                 <a className="list-group-item" href="/">
                     <i className="fab fa-twitter wd-icon"></i></a>
-                <a href="../HomeScreen/index.js" className="list-group-item list-group-item-action active">
+                <a href="home" className="list-group-item list-group-item-action active">
                     <i className="fas fa-home wd-icon"></i>
                     <div className="wd-sidebar-15px">
                         Home
                     </div>
                 </a>
-                <a href="../ExploreScreen/ExploreScreen.js" className="list-group-item list-group-item-action"
+                <a href="explore" className="list-group-item list-group-item-action"
                    aria-current="true">
                     <i className="fas fa-hashtag wd-icon"></i>
                     <div className="wd-sidebar-15px">
