@@ -4,5 +4,6 @@ import userController   from "./controllers/user-controller.js";
 const app = express();
 app.get('/', (req, res) => {res.send('Welcome to Full Stack Development!')})
 helloController(app);
+app.use(express.json());
 userController(app);
-app.listen(4000);
+app.listen(3000);
