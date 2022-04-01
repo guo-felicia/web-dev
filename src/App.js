@@ -18,8 +18,12 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/">
-                        <Route index element={<Tuiter/>} />
-                        <Route path="tuiter" exact={true} element={<Tuiter />} >
+                        <Route index element={<Labs/>}/>
+                        <Route path="labs" exact={true} element={<Labs/>}/>
+                        <Route path="hello"
+                               element={<HelloWorld/>}/>
+                        <Route path="tuiter"
+                               element={<Tuiter/>}>
                             <Route index
                                    element={<HomeScreen/>}/>
                             <Route path="explore"

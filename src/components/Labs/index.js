@@ -10,18 +10,14 @@ const Labs = () => {
     return(
         <div>
             <h1>Tuiter</h1>
+            <h2>Home Screen</h2>
             <Link to="/tuiter">
-                Tuiter
+                Tuiter Home
             </Link>
-            <h1>Labs</h1>
-            {/*A7*/}
-            <ReduxExamples/>
-            {/*A6*/}
-            {/*<ConditionalOutput/>*/}
-            {/*<Styles/>*/}
-            {/*<Classes/>*/}
-            {/*<TodoItem/>*/}
-            {/*<TodoList/>*/}
+            <h2>Explore Screen</h2>
+            <Link to="/tuiter/explore">
+                Tuiter Explore Screen
+            </Link>
         </div>
     )
 };
