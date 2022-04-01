@@ -19,16 +19,14 @@ function App() {
                 <Routes>
                     <Route path="/">
                         <Route index element={<Tuiter/>} />
-                        <Route path="labs" exact={true} element={<Tuiter />} />
-                        {/*<Route path="tuiter"*/}
-                        {/*       element={<Tuiter/>}>*/}
-                        {/*    <Route index*/}
-                        {/*           element={<HomeScreen/>}/>*/}
-                        {/*    <Route path="explore"*/}
-                        {/*           element={<ExploreScreen/>}/>*/}
-                        {/*    <Route path="notifications"*/}
-                        {/*           element={<NotificationScreen/>}/>*/}
-                        {/*</Route>*/}
+                        <Route path="tuiter" exact={true} element={<Tuiter />} >
+                            <Route index
+                                   element={<HomeScreen/>}/>
+                            <Route path="explore"
+                                   element={<ExploreScreen/>}/>
+                            <Route path="notifications"
+                                   element={<NotificationScreen/>}/>
+                        </Route>
                     </Route>
                 </Routes>
             </div>
