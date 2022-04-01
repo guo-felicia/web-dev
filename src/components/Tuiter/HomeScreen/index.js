@@ -5,7 +5,8 @@ import WhatsHappening
 const HomeScreen = () => {
     return(
         <div>
-            <WhatsHappening/>
+            {/*Add what's happening part in Tuitlist in A8*/}
+            {/*<WhatsHappening/>*/}
             <TuitList/>
         </div>
     )
