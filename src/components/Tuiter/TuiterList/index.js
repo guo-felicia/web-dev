@@ -80,7 +80,7 @@ const TuitsList = () => {
                                 Dislikes: {tuit.dislikes}
                                 <i onClick={() => updateTuit(dispatch, {
                                     ...tuit,
-                                    dislikes: tuit.dislikes - 1
+                                    dislikes: tuit.dislikes + 1
                                 })} className="far fa-thumbs-down ms-2"></i>
                             </div>
                             {/*DELETE*/}
