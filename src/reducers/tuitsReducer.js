@@ -18,9 +18,6 @@ const tuitsReducer = (state = [], action) => {
             return state.map(
                 tuit => tuit._id === action.tuit._id ?
                     action.tuit : tuit);
-            
-        // default:
-        //     return action.tuits;
         default:
             return state;
     }

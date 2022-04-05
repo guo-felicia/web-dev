@@ -51,24 +51,25 @@ const TuitsList = () => {
                     </button>
                 </div>
             </div>
+            
             {/*Main Contents of Tuits*/}
             <ul className="ttr-tuits list-group">
                 {
                     tuit.map && tuit.map(tuit =>
                         <div className="list-group-item">
                             <div>
-                                Tuit id:
-                                {tuit._id}
+                                <img className="wd-avatar" src={tuit["avatar"]} alt="Avatar"/>
                             </div>
-                            <div>
-                                {tuit.postedBy && tuit.postedBy.username}
+                            <div className="wd-title-block">
+                                <p className="wd-title-15px">{tuit.postedBy && tuit.postedBy.username}</p>
+                                <p className="wd-handel-15px">@{tuit.handle}</p>
                             </div>
-                            <div>
+                            <div className="wd-content-15px">
                                 {tuit.tuit}
                             </div>
                             
                             {/*LIKES*/}
-                            <div>
+                            <div className="wd-reaction wd-icon">
                                 Likes: {tuit.likes}
                                 <i onClick={() => updateTuit(dispatch, {
                                     ...tuit,
@@ -76,7 +77,7 @@ const TuitsList = () => {
                                 })} className="far fa-thumbs-up ms-2"></i>
                             </div>
                             {/*DISLIKE*/}
-                            <div>
+                            <div className="wd-reaction wd-icon">
                                 Dislikes: {tuit.dislikes}
                                 <i onClick={() => updateTuit(dispatch, {
                                     ...tuit,
