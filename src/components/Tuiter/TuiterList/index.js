@@ -85,7 +85,7 @@ const TuitsList = () => {
                                 })} className="far fa-thumbs-down ms-2"></i>
                             </div>
                             {/*DELETE*/}
-                            <i className="fas fa-trash float-end"
+                            <i className="fas fa-trash float-end bottom-0"
                                onClick={() => deleteTuit(
                                    dispatch, tuit)}></i>
                         
