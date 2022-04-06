@@ -57,6 +57,13 @@ const TuitsList = () => {
                 {
                     tuit.map && tuit.map(tuit =>
                         <div className="list-group-item">
+                            {/*DELETE*/}
+                            <div>
+                                <i className="fas fa-trash float-end"
+                                   onClick={() => deleteTuit(
+                                       dispatch, tuit)}></i>
+                            </div>
+
                             <div>
                                 <img className="wd-avatar" src={tuit["avatar"]} alt="Avatar"/>
                             </div>
@@ -84,10 +91,7 @@ const TuitsList = () => {
                                     dislikes: tuit.dislikes + 1
                                 })} className="far fa-thumbs-down ms-2"></i>
                             </div>
-                            {/*DELETE*/}
-                            <i className="fas fa-trash float-end bottom-0"
-                               onClick={() => deleteTuit(
-                                   dispatch, tuit)}></i>
+
                         
                         </div>
                     )
